@@ -1,0 +1,108 @@
+body {
+    background-color: #dac292;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+
+.game-title {
+    font-size: 3rem;
+    margin: 100px auto 40px auto;
+    width: 50%;
+    color: #405d27;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.status-title {
+    font-size: 2rem;
+    margin:  5%;
+    color: blue;
+    font-family: 'Tilt Prism', cursive;
+}
+
+.container {
+    margin: 0 auto 50px auto;
+    width: 50%;
+    display: block;
+    border-style: none;
+}
+
+.btn {
+    height: 80px;
+    width: 80px;
+    margin: 0;
+    padding: 0;
+    background-color: yellow;
+    display: inline-block;
+}
+
+.row {
+    margin-bottom: 0;
+}
+
+.restart-btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+
+  .restart-btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  } 
+
+  .btn:hover {
+    background: #ffef96;
+    text-decoration: none;
+  }
+
+  .pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
+
+
+  .game-logo {
+    height: 80px;
+    width: 80px;
+  }
+
+  #game-logo-left {
+    float:left;
+    position: relative;
+    left: 200px;
+    bottom: 10px;
+  }
+
+  #game-logo-right {
+    float: right;
+    position: relative;
+    bottom: 100px;
+    right:200px;
+  }
+
+/* giving styles for border colour */
+/* .tl, .tm, .ml, .mm, .bl, .bm {
+    border-right: 10px solid green;
+    border-bottom: 10px solid green;
+}
+
+.tr, .mr {
+    border-bottom: 10px solid green;
+} */
