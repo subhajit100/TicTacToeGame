@@ -1,5 +1,5 @@
 var chance = 0;
-var started = false;
+var started = true;
 var oddChancePositionList = [];
 var evenChancePositionList = [];
 
@@ -49,13 +49,6 @@ $(".restart-btn").click(function(){
     $(".status-title").css("color", "blue");
     doTheEndingCeremony();
     started = true;
-});
-
-$(document).keypress(function(){
-    $(".status-title").text("New Game");
-    $(".status-title").css("color", "blue");
-    doTheEndingCeremony();
-    started = true;  
 });
 
 function someOneWins(){
